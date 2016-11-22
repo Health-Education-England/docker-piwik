@@ -21,7 +21,7 @@ cp /opt/docker/ssmtp.conf ${SSMTP_SETTINGS_PATH}
 
 cp -r /var/www/html/config.original/* /var/www/html/config/
 
-chowb -R www-data:www-data /var/www/html/config
+chown -R www-data:www-data /var/www/html/config	
 
 #############################
 ## COMMAND
