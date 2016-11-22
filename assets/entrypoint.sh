@@ -2,6 +2,7 @@
 
 DOCUMENT_ROOT=/var/www/html/
 
+# v2.17.1
 
 #
 # Configure SSMTP
